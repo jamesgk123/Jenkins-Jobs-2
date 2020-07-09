@@ -1,0 +1,8 @@
+node (slavea) {
+    stage ('shell command'){
+        sh '''
+           uptime
+           hostname
+           '''
+    }
+}
